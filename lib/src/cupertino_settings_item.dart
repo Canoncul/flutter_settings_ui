@@ -343,7 +343,7 @@ class CupertinoSettingsItemState extends State<CupertinoSettingsItem> {
           borderRadius: radius(isLargeScreen),
           color: tileTheme.tileColor ?? calculateBackgroundColor(context),
         ),
-        height: widget.subtitle == null && widget.subtitleWidget == null ? 44.0 : 66.0,
+        //height: widget.subtitle == null && widget.subtitleWidget == null ? 44.0 : 66.0,
         child: Row(
           children: rowChildren,
         ),
